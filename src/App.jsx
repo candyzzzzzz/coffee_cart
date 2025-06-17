@@ -1,16 +1,12 @@
-import NavbarComponent from "./components/NavbarComponent";
-import HeroSection from "./components/HeroSection";
-import From_Bean_to_Brew from "./components/From_Bean_to_Brew";
-
+import { BrowserRouter } from "react-router-dom";
 import "./App.css";
+import Routing from "./Routing";
 
 function App() {
   return (
-    <div>
-      <NavbarComponent />
-      <HeroSection />
-      <From_Bean_to_Brew />
-    </div>
+    <BrowserRouter>
+      <Routing />
+    </BrowserRouter>
   );
 }
 

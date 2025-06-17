@@ -153,3 +153,40 @@
   border-radius: 12px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
 }
+
+.coffee-card-section {
+  background-color: #f5f1ea;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.coffee-card {
+  background-color: #fffaf5;
+  border: none;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  margin-bottom: 30px;
+  transition: transform 0.3s ease;
+}
+
+.coffee-card:hover {
+  transform: translateY(-8px);
+}
+
+.card-icon {
+  font-size: 36px;
+  color: #8b5e3c;
+  margin-bottom: 15px;
+}
+
+.coffee-card .card-title {
+  color: #5c4033;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.coffee-card .card-text {
+  color: #4b3832;
+  font-size: 16px;
+}

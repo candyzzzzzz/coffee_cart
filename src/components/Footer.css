@@ -1,0 +1,49 @@
+/* Add your footer styles here */
+.footer-section {
+  background: #e0c9a6;
+  color: #4b3832;
+  padding: 40px 0 20px 0;
+}
+.footer-section h5 {
+  color: #5c4033;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.footer-links {
+  list-style: none;
+  padding: 0;
+}
+.footer-links li {
+  margin-bottom: 10px;
+}
+.footer-links a {
+  color: #7c5c3e;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.footer-links a:hover {
+  color: #b58868;
+}
+.footer-section .form-control {
+  border-radius: 6px;
+  border: 1px solid #b58868;
+}
+.footer-section .btn {
+  background: #b58868;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  margin-top: 10px;
+}
+.footer-section .btn:hover {
+  background: #a06a3c;
+}
+.footer-section .social-icons a {
+  color: #7c5c3e;
+  margin-right: 12px;
+  font-size: 1.3rem;
+  transition: color 0.2s;
+}
+.footer-section .social-icons a:hover {
+  color: #b58868;
+}

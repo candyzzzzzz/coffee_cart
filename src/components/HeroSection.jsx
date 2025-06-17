@@ -1,4 +1,3 @@
-import React from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import "../App.css";
 import Imgg from "../images/hero.jpg";
@@ -15,7 +14,7 @@ const HeroSection = () => {
               your cup.
             </p>
             <Button className="coffee-btn me-3">Order Now</Button>
-            <Button variant="outline-light">Explore Menu</Button>
+            <Button variant="outline-dark">Explore Menu</Button>
           </Col>
           <Col md={6} className="text-center mt-4 mt-md-0">
             <img src={Imgg} alt="Coffee cup" className="hero-img" />
