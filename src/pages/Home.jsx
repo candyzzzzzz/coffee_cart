@@ -5,7 +5,7 @@ import HeroSection from "../components/HeroSection";
 import Header from "../components/Header";
 import CoffeeThemeCards from "../components/CoffeeThemeCards";
 import Footer from "../components/Footer";
-import Slider from "../components/Slider";
+import SliderComponent from "../components/SliderComponent";
 
 const Home = () => {
   return (
@@ -36,7 +36,7 @@ const Home = () => {
       />
       <FromBeanToBrew />
       <CoffeeThemeCards />
-      <Slider />
+      <SliderComponent />
       <Footer />
     </>
   );
